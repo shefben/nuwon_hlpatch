@@ -1,0 +1,11 @@
+
+
+
+engine exports address's:
+
+hl.exe:004E23C8                               ; int (__cdecl *off_4E23C8)(_DWORD, _DWORD)
+hl.exe:004E23C8 20 DB D9 01                   off_4E23C8      dd offset SCR_BeginLoadingPlaque
+
+.data:02417120                               ; int (__cdecl *gNewDLLFunctions)(_DWORD)
+.data:02417120 ?? ?? ?? ??                   gNewDLLFunctions dd ?                   ; DATA XREF: sub_1D658F0+C.r
+.data:02417120           
